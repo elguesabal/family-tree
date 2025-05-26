@@ -4,7 +4,7 @@ const family = [
     {  tagFather: "line1-left", name: "Antonio", kinship: "grandfather", id: "line1-left1", text: "Antonio is my grandfather on my father's side." },
     {  tagFather: "line1-left", name: "???", kinship: "grandmother", id: "line1-left2", text: "??? is my grandmother on my father's side." },
     {  tagFather: "line1-right", name: "José", kinship: "grandfather", id: "line1-right1", text: "José is my grandfather on my mother's side." },
-    {  tagFather: "line1-right", name: "???", kinship: "grandmother", id: "line1-right2", text: "??? is my grandmother on my mother's side."},
+    {  tagFather: "line1-right", name: "Ermelinda", kinship: "grandmother", id: "line1-right2", text: "Ermelinda is my grandmother on my mother's side."},
 
     {  tagFather: "line2-left", name: "Jaime", kinship: "uncle", id: "line2-left1", text: "Jaime is my uncle on my father's side." },
     {  tagFather: "line2-left", name: "Carlos", kinship: "uncle", id: "line2-left2", text: "Carlos is my uncle on my father's side." },

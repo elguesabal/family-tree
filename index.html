@@ -10,33 +10,25 @@
 </head>
 <body class="bg-sky-50 text-center p-8 font-sans">
 	<h1 class="text-center text-3xl font-bold mt-4 mb-20">My Family Tree</h1>
-
-    <div class="flex flex-col space-y-14">
-        <div class="flex justify-around">
-            <div class="flex space-x-6" id="line1-left"></div>
-            <!-- <div id="line1-middle"></div> -->
-            <div class="flex space-x-6" id="line1-right"></div>
+    <div class="flex flex-col space-y-6 sm:space-y-10 md:space-y-14">
+        <div class="flex flex-col items-center gap-4 sm:flex-row sm:justify-around">
+            <div class="flex flex-wrap justify-center gap-4" id="line1-left"></div>
+            <div class="flex flex-wrap justify-center gap-4" id="line1-right"></div>
         </div>
-
-        <div class="flex justify-around">
-            <div class="flex space-x-6" id="line2-left"></div>
-            <!-- <div id="line2-middle"></div> -->
-            <div class="flex space-x-6" id="line2-right"></div>
+        <div class="flex flex-col items-center gap-4 sm:flex-row sm:justify-around">
+            <div class="flex flex-wrap justify-center gap-4" id="line2-left"></div>
+            <div class="flex flex-wrap justify-center gap-4" id="line2-right"></div>
         </div>
-
-        <div class="flex justify-around">
-            <div class="flex space-x-6" id="line3-left"></div>
+        <div class="flex flex-col items-center gap-4 sm:flex-row sm:justify-around">
+            <div class="flex flex-wrap justify-center gap-4" id="line3-left"></div>
             <div id="line3-middle"></div>
-            <div class="flex space-x-6" id="line3-right"></div>
+            <div class="flex flex-wrap justify-center gap-4" id="line3-right"></div>
         </div>
-
-        <div class="flex justify-around">
-            <div class="flex space-x-6" id="line4-left"></div>
-            <!-- <div id="line4-middle"></div> -->
-            <div class="flex space-x-6" id="line4-right"></div>
+        <div class="flex flex-col items-center gap-4 sm:flex-row sm:justify-around">
+            <div class="flex flex-wrap justify-center gap-4" id="line4-left"></div>
+            <div class="flex flex-wrap justify-center gap-4" id="line4-right"></div>
         </div>
     </div>
-
     <div id="kinship-detail" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center top-0">
         <div class="relative bg-white p-6 rounded shadow-md w-64 text-center">
             <p id="detail"></p>
