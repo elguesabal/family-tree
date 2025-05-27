@@ -16,7 +16,7 @@ const family = [
     {  tagFather: "line3-left", name: "Alessandra", kinship: "half-sister", id: "line3-left1", text: "Alessandra is my half-sister on my father's side." },
     {  tagFather: "line3-left", name: "Renata", kinship: "half-sister", id: "line3-left2", text: "Renata is my half-sister on my father's side." },
 
-    {  tagFather: "line3-middle", name: "José", kinship: "my", id: "line3-middle1", text: "It's me! José." },
+    {  tagFather: "line3-middle", name: "José", kinship: "my", id: "line3-middle1", text: "This is me, José" },
 
     {  tagFather: "line3-right", name: "???", kinship: "cousin", id: "line3-right1", text: "??? is my cousin on my mother's side." },
 
